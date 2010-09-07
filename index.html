@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
+    <script type="text/javascript">
+
+        function menudropdown(linkid,submenuid) {
+            $(linkid).bind('click', function() { 
+                if($(submenuid).is(':visible')) {
+                    $(submenuid).hide('blind',{},500,function(){}); 
+                } else {
+                    $(submenuid).show('blind',{},500,function(){});
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            menudropdown('#mainlink1','#submenu1');
+            menudropdown('#mainlink2','#submenu2');
+            $('#date').datepicker();
+        });
+
+    </script>
+
+    <style type="text/css">
+        div { padding: 0.4em; position: relative; }
+        h3 { margin: 0; padding: 0.4em;  }
+    </style>
+</head>
+<body>
+        <div>
+            <a href="#" id="mainlink1">mainlink1</a>
+        </div>
+        <div id="submenu1">
+            <p>our stuff</p>
+            <p>stuff to hide</p>
+        </div>
+    <div><a href="#" id="mainlink2">mainlink2</a></div>
+    <div id="submenu2"><p>yet more stuff</p><p>and more...</p><p><input type="text" name="date" id="date" /></p></div>
+</body>
+</html>
