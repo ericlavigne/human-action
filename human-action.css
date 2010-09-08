@@ -1,0 +1,13 @@
+body
+{
+	font-size:8pt; 
+	font-family:"Helvetica Neue", Helvetica, Sans-serif;
+	background-color:#FFF;
+	color: #B1B0A9;
+}
+
+a {outline: none;}
+a:link {text-decoration:none; color:#B1B0A9; font-weight:bold;}
+a:visited {text-decoration:none; color:#B1B0A9; font-weight:bold;}
+a:hover {text-decoration:none; color: #E4E5E3; font-weight:lighter;}
+a:actie {text-decoration:none; color: #E4E5E3; font-weight:lighter;}
