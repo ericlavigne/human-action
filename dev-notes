@@ -1,0 +1,6 @@
+Problem: Figure out a way to set maximum width and maximum height for webpage
+
+Problem: Helvetica Neue is not being loaded as font for webpage
+Possible Solutions: Load font from web server
+
+Problem: Multiple id's (#submenu1/2/3) that do the same thing
