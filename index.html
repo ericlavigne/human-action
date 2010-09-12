@@ -7,7 +7,8 @@
 		<script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
 		<script type="text/javascript">
         function menudropdown(linkid,submenuid) {
-            $(linkid).bind('click', function() { 
+            $(submenuid).hide();
+	    $(linkid).bind('click', function() { 
                 if($(submenuid).is(':visible')) {
                     $(submenuid).hide('blind',{},500,function(){}); 
                 } else {
