@@ -1,12 +1,11 @@
 <html>
 <head>
-    <title>Human Action</title>
-			<link type="text/css" href="human-action.css" rel="Stylesheet">
-    <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="Stylesheet" />
-    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
-    <script type="text/javascript">
-
+	<title>Human Action</title>
+		<link type="text/css" href="human-action.css" rel="Stylesheet">
+		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="Stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
+		<script type="text/javascript">
         function menudropdown(linkid,submenuid) {
             $(linkid).bind('click', function() { 
                 if($(submenuid).is(':visible')) {
@@ -23,14 +22,10 @@
             menudropdown('#mainlink3','#submenu3');
         });
 
-    </script>
-
-    <style type="text/css">
-        div { padding: 0.4em; position: relative; }
-        h3 { margin: 0; padding: 0.4em;  }
-    </style>
+		</script>
 </head>
 <body>
+<div class="container">
         <div>
             <a href="#" id="mainlink1">projects</a>
         </div>
@@ -38,24 +33,25 @@
             <p><a href="#">eHUB learning center</a></p>
             <p><a href="#">pharosnet</a></p>
         </div>
-    		<div>
-						<a href="#" id="mainlink2">art+media</a>
-				</div>
-    		<div id="submenu2">
-            <p><a href="#">film</a></p>
-            <p><a href="#">music</a></p>
-            <p><a href="#">events</a></p>
-            <p><a href="#">images</a></p>
-				</div>
-				<div>
-						<a href="#" id="mainlink3">info</a>
-				</div>
-    		<div id="submenu3">
-            <p><a href="#">philosophy</a></p>
-            <p><a href="#">human actors</a></p>
-            <p><a href="#">press</a></p>
-            <p><a href="#">contact</a></p>
-            <p><a href="#">opportunities</a></p>
-				</div>
+	<div>
+		<a href="#" id="mainlink2">art+media</a>
+	</div>
+    	<div id="submenu2">
+		<p><a href="#">film</a></p>
+		<p><a href="#">music</a></p>
+		<p><a href="#">events</a></p>
+		<p><a href="#">images</a></p>
+	</div>
+	<div>
+		<a href="#" id="mainlink3">info</a>
+	</div>
+	<div id="submenu3">
+		<p><a href="#">philosophy</a></p>
+		<p><a href="#">human actors</a></p>
+		<p><a href="#">press</a></p>
+		<p><a href="#">contact</a></p>
+		<p><a href="#">opportunities</a></p>
+	</div>
+</div>
 </body>
 </html>

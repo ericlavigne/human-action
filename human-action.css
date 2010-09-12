@@ -6,8 +6,21 @@ body
 	color: #B1B0A9;
 }
 
+*--Sets 
+#container
+{
+	max-width: 760px;
+	max-height: 410px;
+	width:expression(document.body.clientWidth > 760? "760px" : "auto");
+	height:expression(document.body.clientHeight > 410? "410px" : "auto");
+}
+
+div { padding: 0.4em; position: relative; }
+h3 { margin: 0; padding: 0.4em;  }
+
 a {outline: none;}
 a:link {text-decoration:none; color:#B1B0A9; font-weight:bold;}
 a:visited {text-decoration:none; color:#B1B0A9; font-weight:bold;}
 a:hover {text-decoration:none; color: #E4E5E3; font-weight:lighter;}
-a:actie {text-decoration:none; color: #E4E5E3; font-weight:lighter;}
+a:active {text-decoration:none; color: #E4E5E3; font-weight:lighter;}
+
