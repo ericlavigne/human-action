@@ -3,18 +3,18 @@ body
 	font-size:8pt; 
 	font-family:"Helvetica Neue", Helvetica, Sans-serif;
 	background-color:#FFF;
-	color: #B1B0A9;
-	max-width:750px;
+	color: #999999;
 	max-height:410px;
+	max-width:750px;
 }
 
 
 
 a {outline: none;}
-a:link {text-decoration:none; color:#B1B0A9;}
-a:visited {text-decoration:none; color:#B1B0A9;}
-a:hover {text-decoration:none; color: #E4E5E3;}
-a:active {text-decoration:none; color: #E4E5E3;}
+a:link {text-decoration:none; color:#999999;}
+a:visited {text-decoration:none; color:#999999;}
+a:hover {text-decoration:none; color: #CCCCCC;}
+a:active {text-decoration:none; color: #CCCCCC;}
 
 /*Sets menu style*/
 #menu {max-width:65px;}
@@ -47,6 +47,22 @@ a:active {text-decoration:none; color: #E4E5E3;}
 #submenu_p
 {
 	text-align:left;
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+/*Logo Positioning*/
+#logo_div
+{
+	position:absolute;
+	left:640px;
+	top:375px;
+
+}
+
+#logo_p
+{
+	font-size:32;
 	margin-top:0em;
 	margin-bottom:0em;
 }
